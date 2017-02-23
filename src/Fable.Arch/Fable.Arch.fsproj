@@ -40,10 +40,12 @@
     <Reference Include="../../node_modules/fable-react/Fable.React.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fable.Import.Snabbdom.fs" />
     <Compile Include="Fable.Arch.Html.fs" />
     <Compile Include="Fable.Arch.App.fs" />
     <Compile Include="Fable.Arch.Virtualdom.fs" />
-    <Compile Include="Fable.Arch.DevTools.fs" />
+    <Compile Include="Fable.Arch.Snabbdom.fs" />
+    <!--<Compile Include="Fable.Arch.DevTools.fs" />-->
     <Compile Include="Fable.Arch.RouteParser.fs" />
     <Compile Include="Fable.Arch.React.fs" />
     <Content Include="paket.references" />
